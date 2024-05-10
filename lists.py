@@ -21,13 +21,13 @@ def add_elements(list_to_add_elements):
 
 def is_empty(list_to_check):
     if len(list_to_check) > 0:
-        print("no está vacía")
+        return False
     else:
-        print("Está vacía")
+        Return True 
 
 
 def check_lists(list_to_compare1, list_to_compare2):
-   if list_to_compare1[2]== list_to_compare2[2]:
+   if list_to_compare1 [2] == list_to_compare2 [2]:
         return True
     else:
         return False
