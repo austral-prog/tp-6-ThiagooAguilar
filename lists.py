@@ -23,7 +23,7 @@ def is_empty(list_to_check):
     if len(list_to_check) == 0:
         return True 
     else:
-        Return False 
+        return False 
 
 
 def check_lists(list_to_compare1, list_to_compare2):
