@@ -27,7 +27,7 @@ def is_empty(list_to_check):
 
 
 def check_lists(list_to_compare1, list_to_compare2):
-   if len(list_to_compare1) + len(list_to_compare2) and  list_to_compare1 [2] == list_to_compare2 [2] 
+   if (len(list_to_compare1) + len(list_to_compare2)) > 6 and  list_to_compare1 [2] == list_to_compare2 [2] 
         return True
     else:
         return False
