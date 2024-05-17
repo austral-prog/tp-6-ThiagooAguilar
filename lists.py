@@ -1,11 +1,11 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(list_to_remove_elements):
-    if len(list_to_remove_elements) > 6 :
+    if len(list_to_remove_elements)>6:
        del  list_to_remove_elements[0,3,5]
     elif len(list_to_remove_elements)<6:
         del list_to_remove_elements[0,3]
-    elif len(list_to_remove_elements) <5 :
+    elif len(list_to_remove_elements)<5:
         del list_to_remove_elements[0]
     return list_to_remove_elements
 
