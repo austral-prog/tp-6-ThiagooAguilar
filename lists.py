@@ -1,18 +1,13 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(list_to_remove_elements):
-    lista= []
-    
-    # Agregar el primer elemento si existe
-    if len(list_to_remove_elements) > 0:
-        lista.append(lst[0])
-    if len(list_to_remove_elements) > 4:
-        lista.append(lst[4])
-    if len(list_to_remove_elements) > 5:
-        lista.append(lst[5])
-    result = list_to_remove_elements[:]
-    for element in elements_to_remove:
-        result.remove(element)
+    if len(list_to_remove_elements) > 6 :
+       del  list_to_remove_elements[0,3,5]
+    elif len(list_to_remove_elements)<6:
+        del list_to_remove_elements[0,3]
+    elif len(list_to_remove_elements) <5 :
+        del list_to_remove_elements[0]
+    return list_to_remove_elements
 
 
 
